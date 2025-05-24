@@ -1,3 +1,5 @@
+import { HeroSection } from "../Component/HeroSection.jsx"
+import { Navbar } from "../Component/Navbar.jsx"
 import { StarBackground } from "../Component/StarBackground.jsx"
 import { ThemeToggle } from "../Component/ThemeToggle.jsx"
 
@@ -9,8 +11,11 @@ export const Home = () => {
         {/* Background Effects */}
             <StarBackground />
         {/* Navbar */}
-
+            <Navbar />
         {/* Main content */}
+        <main>
+            <HeroSection />
+        </main>
 
 
         {/* Footer */}
