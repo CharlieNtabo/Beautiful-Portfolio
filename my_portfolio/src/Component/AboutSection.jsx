@@ -76,7 +76,7 @@ export const AboutSection = () => {
                     <div className="text-left">
                         <h4 className="font-semibold text-lg"> Project Management </h4>
                         <p className="text-muted-foreground">
-                            Leading projects from conception to cmpletion with agile
+                            Leading projects from conception to completion with agile
                             methodoloies.
                         </p>
                     </div>
